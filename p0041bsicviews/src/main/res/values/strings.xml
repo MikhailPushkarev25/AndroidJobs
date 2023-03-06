@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BasicViews</string>
+    <string name="google_android">Google android</string>
+    <string name="button">Button</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="pass">Pass</string>
+    <string name="start">Start</string>
+</resources>
