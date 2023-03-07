@@ -16,3 +16,6 @@ rootProject.name = "Android lessons"
 include ':app'
 include ':p0031firstproject'
 include ':p0041bsicviews'
+include ':P0051_LayoutFiles'
+include ':Layouts'
+include ':p0061_layouts'
