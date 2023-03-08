@@ -20,6 +20,8 @@
             <option value="$PROJECT_DIR$/p0072" />
             <option value="$PROJECT_DIR$/p0072_layoutprop" />
             <option value="$PROJECT_DIR$/p0081_viewbyid" />
+            <option value="$PROJECT_DIR$/p0081_viewbyid2" />
+            <option value="$PROJECT_DIR$/p0091_onclickbuttons" />
           </set>
         </option>
       </GradleProjectSettings>
