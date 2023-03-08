@@ -22,6 +22,8 @@
             <option value="$PROJECT_DIR$/p0081_viewbyid" />
             <option value="$PROJECT_DIR$/p0081_viewbyid2" />
             <option value="$PROJECT_DIR$/p0091_onclickbuttons" />
+            <option value="$PROJECT_DIR$/p0101_listener" />
+            <option value="$PROJECT_DIR$/p0102_activitylistener" />
           </set>
         </option>
       </GradleProjectSettings>
