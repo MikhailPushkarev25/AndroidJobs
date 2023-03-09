@@ -28,6 +28,7 @@
             <option value="$PROJECT_DIR$/p0121_logandmess" />
             <option value="$PROJECT_DIR$/p0131_menusimple" />
             <option value="$PROJECT_DIR$/p0141_menuadv" />
+            <option value="$PROJECT_DIR$/p0151_contextmenu" />
           </set>
         </option>
       </GradleProjectSettings>
