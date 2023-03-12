@@ -34,6 +34,7 @@
             <option value="$PROJECT_DIR$/p0181_dynamiclayout3" />
             <option value="$PROJECT_DIR$/p0201_simpleanimation" />
             <option value="$PROJECT_DIR$/p0211twoactivity" />
+            <option value="$PROJECT_DIR$/p0231_oneactivitystate" />
           </set>
         </option>
       </GradleProjectSettings>
