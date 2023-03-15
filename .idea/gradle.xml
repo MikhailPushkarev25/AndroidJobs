@@ -42,6 +42,7 @@
             <option value="$PROJECT_DIR$/p0291_simpleactivityresult" />
             <option value="$PROJECT_DIR$/p0301_activityresult" />
             <option value="$PROJECT_DIR$/p0311_simpleintents" />
+            <option value="$PROJECT_DIR$/p0331_sharedpreferences" />
           </set>
         </option>
       </GradleProjectSettings>
