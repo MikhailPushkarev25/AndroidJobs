@@ -44,6 +44,7 @@
             <option value="$PROJECT_DIR$/p0311_simpleintents" />
             <option value="$PROJECT_DIR$/p0331_sharedpreferences" />
             <option value="$PROJECT_DIR$/p0341_simplesqlite" />
+            <option value="$PROJECT_DIR$/p0361_sqlitequery" />
           </set>
         </option>
       </GradleProjectSettings>
