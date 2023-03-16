@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private static final String TAG = "myLogs";
 
-    private Button btnRead, btnAdd, btnClear;
-    private EditText etName, etEmail;
+    private Button btnRead, btnAdd, btnClear, btnDel, btnUpd;
+    private EditText etName, etEmail, etId;
 
     private DBHelper dbHelper;
 
@@ -30,14 +30,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         etName = findViewById(R.id.etName);
         etEmail = findViewById(R.id.etEmail);
+        etId = findViewById(R.id.etID);
 
         btnRead = findViewById(R.id.btnRead);
         btnAdd = findViewById(R.id.btnAdd);
         btnClear = findViewById(R.id.btnClear);
+        btnDel = findViewById(R.id.btnDel);
+        btnUpd = findViewById(R.id.btnUpd);
 
         btnRead.setOnClickListener(this);
         btnAdd.setOnClickListener(this);
         btnClear.setOnClickListener(this);
+        btnDel.setOnClickListener(this);
+        btnUpd.setOnClickListener(this);
 
         dbHelper = new DBHelper(this);
     }
@@ -49,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         String name = etName.getText().toString();
         String email = etEmail.getText().toString();
+        String id = etId.getText().toString();
 
         SQLiteDatabase db = dbHelper.getWritableDatabase();
 
@@ -77,15 +83,34 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                  "name = " + c.getString(nameColIndex) + ", " +
                                 "email = " + c.getString(emailColIndex));
                     } while (c.moveToNext());
-                } else {
+                } else
                     Log.d(TAG, "0 rows");
                     c.close();
                     break;
-                }
             case R.id.btnClear:
                 Log.d(TAG, "---- Clear mytable ------");
                 int clearCount = db.delete("mytable", null, null);
                 Log.d(TAG, "deleted rows count " + clearCount);
+                break;
+            case R.id.btnUpd:
+
+                if (id.equalsIgnoreCase("")) {
+                    break;
+                }
+                Log.d(TAG, "---- Update mytable ------");
+                contentValues.put("name", name);
+                contentValues.put("email", email);
+
+                int updCount = db.update("mytable", contentValues, "id = ?", new String[]{id});
+                Log.d(TAG, "---- Updaded rows count -> " + updCount);
+                break;
+            case R.id.btnDel:
+                if (id.equalsIgnoreCase("")) {
+                    break;
+                }
+                Log.d(TAG, "---- Delete mytable ------");
+                int delCount = db.delete("mytable", "id = " + id, null);
+                Log.d(TAG, "---- Deleted rows count -> " + delCount);
                 break;
         }
         dbHelper.close();
