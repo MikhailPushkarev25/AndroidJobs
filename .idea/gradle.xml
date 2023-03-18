@@ -48,6 +48,7 @@
             <option value="$PROJECT_DIR$/p0371_sqliteinnerjoin" />
             <option value="$PROJECT_DIR$/p0381_sqlitetransaction" />
             <option value="$PROJECT_DIR$/p0391_sqliteonupgradedb" />
+            <option value="$PROJECT_DIR$/p0401_layoutinflater" />
           </set>
         </option>
       </GradleProjectSettings>
