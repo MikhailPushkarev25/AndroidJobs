@@ -50,6 +50,7 @@
             <option value="$PROJECT_DIR$/p0391_sqliteonupgradedb" />
             <option value="$PROJECT_DIR$/p0401_layoutinflater" />
             <option value="$PROJECT_DIR$/p0411_layoutinflaterlist" />
+            <option value="$PROJECT_DIR$/p0421_simplelist" />
           </set>
         </option>
       </GradleProjectSettings>
