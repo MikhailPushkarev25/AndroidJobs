@@ -55,6 +55,7 @@
             <option value="$PROJECT_DIR$/p0441_simplelistevents" />
             <option value="$PROJECT_DIR$/p0451_expandablelist" />
             <option value="$PROJECT_DIR$/p0461_expandablelistevents" />
+            <option value="$PROJECT_DIR$/p0481_simpleadapter" />
           </set>
         </option>
       </GradleProjectSettings>
