@@ -60,6 +60,7 @@
             <option value="$PROJECT_DIR$/p0501_simpleadaptercustom2" />
             <option value="$PROJECT_DIR$/p0511_simpleadapterdata" />
             <option value="$PROJECT_DIR$/p0531_simplecursortreeadapter" />
+            <option value="$PROJECT_DIR$/p0541_customadapter" />
           </set>
         </option>
       </GradleProjectSettings>
