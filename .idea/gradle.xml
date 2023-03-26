@@ -11,8 +11,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/myapplication" />
             <option value="$PROJECT_DIR$/p0601_alertdialogsimple" />
             <option value="$PROJECT_DIR$/p0611_alertdialogprepare" />
+            <option value="$PROJECT_DIR$/p0621_alertdialogitems" />
           </set>
         </option>
       </GradleProjectSettings>
