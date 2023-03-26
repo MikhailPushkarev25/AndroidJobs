@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TimePickerDialog</string>
+    <string name="name">Hello world</string>
+    <string name="hello" />
+</resources>
