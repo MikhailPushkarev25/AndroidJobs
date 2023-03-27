@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/p0601_alertdialogsimple" />
             <option value="$PROJECT_DIR$/p0611_alertdialogprepare" />
             <option value="$PROJECT_DIR$/p0621_alertdialogitems" />
+            <option value="$PROJECT_DIR$/p0631_alertdialogitemssingle" />
           </set>
         </option>
       </GradleProjectSettings>
